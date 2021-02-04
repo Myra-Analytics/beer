@@ -38,19 +38,19 @@
     <vann:preferredNamespacePrefix>beer</vann:preferredNamespacePrefix>
     <vann:preferredNamespaceUri>https://rdf.ag/o/beer#</vann:preferredNamespaceUri>
     <dcterms:title xml:lang="en">The Beer Ontology</dcterms:title>
-    <dcterms:title xml:lang="fr">L'Ontologie des Houblons</dcterms:title>
+    <dcterms:title xml:lang="fr">L'Ontologie de la Bière</dcterms:title>
     <rdfs:label xml:lang="en">The Beer Ontology</rdfs:label>
-    <rdfs:label xml:lang="fr">L'Ontologie des Houblons</rdfs:label>
+    <rdfs:label xml:lang="fr">L'Ontologie de la Bière</rdfs:label>
     <foaf:name xml:lang="en">The Beer Ontology</foaf:name>
-    <foaf:name xml:lang="fr">L'Ontologie des Houblons</foaf:name>
+    <foaf:name xml:lang="fr">L'Ontologie de la Bière</foaf:name>
     <dcterms:description xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</dcterms:description>
-    <dcterms:description xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</dcterms:description>
+    <dcterms:description xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</dcterms:description>
     <skos:definition xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</skos:definition>
-    <skos:definition xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</skos:definition>
+    <skos:definition xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</skos:definition>
     <rdfs:comment xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</rdfs:comment>
     <owl:versionInfo>1.0</owl:versionInfo>
-    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">ONTOLOGY_DATE</dcterms:date>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-04</dcterms:date>
     <dcterms:rights rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
     <vs:term_status xml:lang="en">Stable</vs:term_status>
     <vs:term_status xml:lang="fr">Stable</vs:term_status>
@@ -61,25 +61,25 @@
 
   <void:Dataset rdf:about="#datasetdefinition">
     <dcterms:title xml:lang="en">The Beer Ontology</dcterms:title>
-    <dcterms:title xml:lang="fr">L'Ontologie des Houblons</dcterms:title>
+    <dcterms:title xml:lang="fr">L'Ontologie de la Bière</dcterms:title>
     <rdfs:label xml:lang="en">The Beer Ontology</rdfs:label>
-    <rdfs:label xml:lang="fr">L'Ontologie des Houblons</rdfs:label>
+    <rdfs:label xml:lang="fr">L'Ontologie de la Bière</rdfs:label>
     <foaf:name xml:lang="en">The Beer Ontology</foaf:name>
-    <foaf:name xml:lang="fr">L'Ontologie des Houblons</foaf:name>
+    <foaf:name xml:lang="fr">L'Ontologie de la Bière</foaf:name>
     <dcterms:description xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</dcterms:description>
-    <dcterms:description xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</dcterms:description>
+    <dcterms:description xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</dcterms:description>
     <skos:definition xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</skos:definition>
-    <skos:definition xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</skos:definition>
+    <skos:definition xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</skos:definition>
     <rdfs:comment xml:lang="en">The Beer Ontology is an ontology created to represent data about beer.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'Ontologie des Houblons est une ontologie créée pour représenter des données sur les houblons.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'ontologie de la bière est une ontologie créée pour représenter des données sur la bière.</rdfs:comment>
     <!-- Need to resolve better rdf for licenses. -->
     <cc:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
     <cc:license>Dual license. All rights reserved.</cc:license>
     <cc:Jurisdiction rdf:resource="http://dbpedia.org/resource/Canada"/>
     <cc:attributionURL rdf:resource="http://rdf.ag/"/>
-    <rdfs:isDefinedBy rdf:resource="https://rdf.ag/o/beer-ONTOLOGY_DATE"/>
-    <void:triples>TOTAL_TRIPLES_ONTOLOGY</void:triples>
-    <void:entities>TOTAL_ENTITIES_ONTOLOGY</void:entities>
+    <rdfs:isDefinedBy rdf:resource="https://rdf.ag/o/beer-2021-02-04"/>
+    <void:triples>3057</void:triples>
+    <void:entities>358</void:entities>
     <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85146366"/>
     <dcterms:creator rdf:resource="#singer"/>
     <dcterms:creator rdf:resource="#warren"/>
@@ -87,16 +87,20 @@
   
   <foaf:Person rdf:about="#singer">
    <foaf:name>Jessica Singer</foaf:name>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
+   <void:inDataset rdf:resource="#datasetdefinition"/>
   </foaf:Person>
   
   <foaf:Person rdf:about="#warren">
    <foaf:name>Rob Warren</foaf:name>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
+   <void:inDataset rdf:resource="#datasetdefinition"/>
   </foaf:Person>
 
  <bibo:Collection rdf:about="#bibliography">
   <rdfs:label xml:lang="en">The Beer Ontology</rdfs:label>
   <rdfs:label xml:lang="fr">L'Ontologie des Houblons</rdfs:label>
-  <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+  <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
   <void:inDataset rdf:resource="#datasetdefinition"/>
  </bibo:Collection>
  
@@ -106,7 +110,7 @@
      <rdfs:label xml:lang="fr">Alcohol By Volume</rdfs:label>
      <skos:definition xml:lang="en">The amount of pure ethanol in 100mL of a solution.</skos:definition>
      <skos:definition xml:lang="fr">La quantité d'éthanol pur dans 100mL d'une solution.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </sosa:ObservableProperty>
 
@@ -115,104 +119,95 @@
      <rdfs:label xml:lang="fr">Alcohol By Volume</rdfs:label>
      <skos:definition xml:lang="en">The amount of pure ethanol in 100mL of a solution.</skos:definition>
      <skos:definition xml:lang="fr">La quantité d'éthanol pur dans 100mL d'une solution.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
      <!-- uses this unit: Go to external page http://purl.obolibrary.org/obo/UO_0000165  -->
  </owl:datatypeProperty>
  
  <!-- Beer classes -->
- <owl:Class rdf:ID="Brewer">
-     <rdfs:label xml:lang="en">Brewer</rdfs:label>
-     <rdfs:label xml:lang="fr">Brasseur/Brasseuse</rdfs:label>
-     <skos:definition xml:lang="en">A brewer is a person or company that produces beer. Beer is produced as a result of the beer brewing process.</skos:definition>
-     <skos:definition xml:lang="fr">Un brasseur ou brasseuse est une personne ou une entreprise qui produit de la bière. La bière est produite à la suite du processus de brassage de la bière.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
-     <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Class>
  
  <owl:Class rdf:ID="Brewery">
      <rdfs:label xml:lang="en">Brewery</rdfs:label>
      <rdfs:label xml:lang="fr">Brasserie</rdfs:label>
-     <skos:definition xml:lang="en">A brewery is a licensed location or corporate entity that produces beer.</skos:definition>
+     <skos:definition xml:lang="en">A brewery is a location or corporate entity that produces beer.</skos:definition>
      <skos:definition xml:lang="fr">Une brasserie est une entreprise ou un lieu qui produit de la bière.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
- <owl:Brewery rdf:ID="Craftbrewery">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="Craftbrewery">
+     <rdfs:subClassOf rdf:resource="#Brewery"/>
      <rdfs:label xml:lang="en">Craft Brewery</rdfs:label>
      <rdfs:label xml:lang="fr">Brasserie Artisanale</rdfs:label>
      <skos:definition xml:lang="en">As defined by the Brewers Association, a craft brewery is a small, independent brewer.</skos:definition>
      <skos:definition xml:lang="fr">Une brasserie est une entreprise ou un lieu qui produit de la bière.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Brewery>
+ </owl:Class>
  
- <owl:Craftbrewery rdf:ID="Microbrewery">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="Microbrewery">
+     <rdfs:subClassOf rdf:resource="#CraftBrewery"/>
      <rdfs:label xml:lang="en">Microbrewery</rdfs:label>
      <rdfs:label xml:lang="fr">Microbrasserie</rdfs:label>
      <skos:definition xml:lang="en">Microbreweries typically sell about 75% or more of its beer off-site and produce about 15,000 barrels per year. Microbreweries will sell beer either to wholesalers, retailers or directly to the consumers (carry-out or taproom).</skos:definition>
      <skos:definition xml:lang="fr">Les microbrasseries vendent généralement environ 75% ou plus de leur bière hors site et produisent environ 15 000 barils par an. Les microbrasseries vendront de la bière soit aux grossistes, aux détaillants, soit directement aux consommateurs (à emporter ou en salle).</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Craftbrewery>
+ </owl:Class>
  
- <owl:Craftbrewery rdf:ID="Brewpub">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="Brewpub">
+     <rdfs:subClassOf rdf:resource="#Craftbrewery"/>
      <rdfs:label xml:lang="en">Brewpub</rdfs:label>
      <rdfs:label xml:lang="fr">Brewpub</rdfs:label> <!-- Brasserie artisanale? -->
      <skos:definition xml:lang="en">A brewpub is a type of brewery also provides food services sells about 25% or more of its beer on site. The rest can also be sold to off site distributers or through carry-outs.</skos:definition>
      <skos:definition xml:lang="fr">Un brewpub est un type de brasserie qui fournit également des services de restauration et vend environ 25% ou plus de sa bière sur place. Le reste peut également être vendu à des distributeurs hors site ou par le biais de report.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Craftbrewery>
+ </owl:Class>
  
- <owl:Craftbrewery rdf:ID="TaproomBrewery">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="TaproomBrewery">
+     <rdfs:subClassOf rdf:resource="#CraftBrewery"/>
      <rdfs:label xml:lang="en">Taproom Brewery</rdfs:label>
      <rdfs:label xml:lang="fr">Brasserie Taproom</rdfs:label> <!-- ? No translation -->
      <skos:definition xml:lang="en">A taproom brewery is a brewery that sells at least 25% of their beer on-site but does not offer food services. The rest of the beer can be sold as carry-outs or to off-site retailers.</skos:definition>
      <skos:definition xml:lang="fr">Une brasserie taproom est une brasserie qui vend au moins 25% de sa bière sur place mais n'offre pas de services de restauration. Le reste de la bière peut être vendu sous forme de report ou à des détaillants hors site.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Craftbrewery>
+ </owl:Class>
  
- <owl:Craftbrewery rdf:ID="RegionalBrewery">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="RegionalBrewery">
+     <rdfs:subClassOf rdf:resource="#CraftBrewery"/>
      <rdfs:label xml:lang="en">Regional Brewery</rdfs:label>
      <rdfs:label xml:lang="fr">Brasserie régionale</rdfs:label>
      <skos:definition xml:lang="en">A regional brewery is a brewery that produces around 15,000 to 6 million barrels of beer per year.</skos:definition>
      <skos:definition xml:lang="fr">Une brasserie régionale est une brasserie qui produit environ 15 000 à 6 millions de barils de bière par an.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Craftbrewery>
+ </owl:Class>
  
- <owl:Craftbrewery rdf:ID="ContractBrewery">
-     <rdfs:subClassOf rdf:resource="#CraftBrewer"/>
+ <owl:Class rdf:ID="ContractBrewery">
+     <rdfs:subClassOf rdf:resource="#CraftBrewery"/>
      <rdfs:label xml:lang="en">Contract Brewery</rdfs:label>
      <rdfs:label xml:lang="fr">Brasserie sous Contrat</rdfs:label>
      <skos:definition xml:lang="en">A brewery that has a contract with a company that handles the marketing and sales part of the business while the producer-brewery only focuses on brewing beer.</skos:definition>
      <skos:definition xml:lang="fr">Une brasserie qui a un contrat avec une entreprise qui gère la partie marketing et ventes de l'entreprise, tandis que la brasserie-producteur se concentre uniquement sur le brassage de la bière.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#BrewersAssociation2020"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Craftbrewery>
+ </owl:Class>
  
  <owl:Class rdf:ID="Beer">
      <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001260"/>
-     <rdfs:subClassOf rdf:resource="#http://purl.obolibrary.org/obo/FOODON_00001254"/>
      <rdfs:label xml:lang="en">Beer</rdfs:label>
      <rdfs:label xml:lang="fr">Bière</rdfs:label>
      <skos:definition xml:lang="en">Beer a drink that is created as a result of the fermentation of yeast malt and is flavored with hops. The fermentation process results in alcohol, however there are some beers that are specifically brewed to be non-alcoholic.</skos:definition>
      <skos:definition xml:lang="fr">La bière est une boisson créée à la suite de la fermentation du malt de levure et aromatisée au houblon. Le processus de fermentation donne de l'alcool, mais certaines bières sont spécifiquement brassées pour être non alcoolisées.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
 
@@ -224,39 +219,65 @@
      <rdfs:label xml:lang="fr">Bière</rdfs:label>
      <skos:definition xml:lang="en">Beer a drink that is created as a result of the fermentation of yeast malt and is flavored with hops. The fermentation process results in alcohol, however there are some beers that are specifically brewed to be non-alcoholic.</skos:definition>
      <skos:definition xml:lang="fr">La bière est une boisson créée à la suite de la fermentation du malt de levure et aromatisée au houblon. Le processus de fermentation donne de l'alcool, mais certaines bières sont spécifiquement brassées pour être non alcoolisées.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
 <!-- Beer Types -->
  
- <owl:Beer rdf:ID="Ale">
+ <owl:Class rdf:ID="Ale">
+     <rdfs:subClassOf rdf:resource="#Beer"/>
      <foaf:name>Ale</foaf:name>
      <rdfs:label xml:lang="en">Ale</rdfs:label>
      <skos:definition xml:lang="en">The main distinguishing feature of an ale is the type of yeast used in the brewing process, Saccharomyces cerevisiae. S. cerevisiae typically prefers a warmer brewing range and lacks the ability to metabolize the complex sugars: melibiose and raffinose.
          
          Ales are typically fermented, depending of course on the strain yeast, at 16-24˚C (60-75˚F) temperature range. Which is typically, but not exclusively, warmer than lager fermentation.
          
-         Ales are also do not undergo a cold-conditioning phase. However it is not uncommon for some lagers to not undergo a cold phase.</skos:definition>
+         Ales also do not undergo a cold-conditioning phase. However it is not uncommon for some lagers to not undergo a cold phase.</skos:definition>
      <skos:definition xml:lang="fr">La principale caractéristique distinctive d'un Ale est le type de levure utilisé dans le processus de brassage, Saccharomyces cerevisiae. S. cerevisiae préfère généralement une gamme de brassage plus chaude et n'a pas la capacité de métaboliser les sucres complexes: mélibiose et raffinose.
          
          Les Ales sont généralement fermentées, en fonction bien sûr de la souche de levure, à 16-24°C (60-75°F). Ce qui est généralement, mais pas exclusivement, plus chaud que la fermentation blonde.
          
          Les Ales ne subissent pas non plus de phase de conditionnement à froid. Cependant, il n'est pas rare que certaines lagers ne subissent pas de phase froide.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#Carpenter2017"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Beer>
+ </owl:Class>
  
- <owl:Ale rdf:ID="PaleAle">
+ <owl:Class rdf:ID="BelgianAle">
+     <rdfs:subClassOf rdf:resource="#Ale"/>
+     <rdfs:subClassOf rdf:resource="#BelgianBeer"/>
+     <foaf:name>Belgian Ale</foaf:name>
+     <rdfs:label xml:lang="en">Belgian Ale</rdfs:label>
+     <rdfs:label xml:lang="fr">Bière Belge</rdfs:label>
+     <skos:definition xml:lang="en">Belgian Ales are ales are that are brewed in the Belgian style.</skos:definition>
+     <skos:definition xml:lang="fr">Les bières belges sont des bières brassées dans le style belge.</skos:definition>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
+     <void:inDataset rdf:resource="#datasetdefinition"/>
+ </owl:Class>
+ 
+ <owl:Class rdf:ID="EnglishStyleAle">
+     <rdfs:subClassOf rdf:resource="#Ale"/>
+     <foaf:name>English Style Ale</foaf:name>
+     <rdfs:label xml:lang="en">British Style Ale</rdfs:label>
+     <rdfs:label xml:lang="en">English Style Ale</rdfs:label>
+     <rdfs:label xml:lang="fr">Style Anglais</rdfs:label>
+     <skos:definition xml:lang="en">English Style Ales are ales are that are brewed in the English style.</skos:definition>
+     <skos:definition xml:lang="fr">Les ales à l'anglaise sont des ales brassées dans le style Anglais.</skos:definition>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
+     <void:inDataset rdf:resource="#datasetdefinition"/>
+ </owl:Class>
+ 
+ <owl:Class rdf:ID="PaleAle">
+     <rdfs:subClassOf rdf:resource="#Ale"/>
      <foaf:name>Pale Ale</foaf:name>
      <rdfs:label xml:lang="en">Pale Ale</rdfs:label>
      <rdfs:label xml:lang="fr">Une Blonde</rdfs:label>
      <skos:definition xml:lang="en">Pale Ales are a style of beer that are typically light in color, have stong hop flavors, and low in alcohol content. This umbrella term includes IPAs, APAs and English pale ales.
       
-      Most Pale Ales are english-style, since it has become quite popular, many countries developped their own versions of pale ales that originated from English style of brewing beer.
+      Most Pale Ales are english-style, since it has become quite popular, many countries developed their own versions of pale ales that originated from English style of brewing beer.
       
-      Samuel Allsopp in Burton, UK brewed the first pale ale for the Indian market in 1822 and it was shipped in 1823 to in India which had a lasting impact that lead to the rise of India Pale Ales.
+      Samuel Allsopp in Burton, UK brewed the first pale ale for the Indian market in 1822 and it was shipped in 1823 to India which had a lasting impact that lead to the rise of India Pale Ales.
       
      Pale ales used to be called "bitter ales" in the past but now it has become three versions being "ordinary" that range in 3%-4% ABV, "special" and "extra special" that range 4.5-5% ABV.</skos:definition>
      <skos:definition xml:lang="fr">Les Pale Ales sont un style de bière généralement de couleur claire, aux saveurs de houblon fort et à faible teneur en alcool. Ce terme générique comprend les IPA, les APA et les Blondes Anglaises.
@@ -269,47 +290,51 @@
      <prov:hadPrimarySource rdf:resource="#Foster2020"/>
      <prov:hadPrimarySource rdf:resource="#Foster1999"/>
      <prov:hadPrimarySource rdf:resource="#Jackson1993"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Ale>
+ </owl:Class>
  
- <owl:PaleAle rdf:ID="EnglishPaleAle">
+ <owl:Class rdf:ID="EnglishPaleAle">
+     <rdfs:subClassOf rdf:resource="#PaleAle"/>
+     <rdfs:subClassOf rdf:resource="#EnglishStyleAle"/>
      <foaf:name>English Pale Ale</foaf:name>
      <rdfs:label xml:lang="en">English Pale Ale</rdfs:label>
      <rdfs:label xml:lang="en">British Pale Ale</rdfs:label>
      <rdfs:label xml:lang="en">English-Style Pale Ale</rdfs:label>
      <skos:definition xml:lang="en">English Pale Ale is a type of pale ale that is brewed in the English style, usually more with more hop flavor and bitterness.</skos:definition>
      <skos:definition xml:lang="fr">La Pale Ale anglaise est un type de bière blonde brassée dans le style anglais, généralement plus avec plus de saveur de houblon et d'amertume.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:PaleAle>
+ </owl:Class>
  
- <owl:EnglishPaleAle rdf:ID="IndiaPaleAle">
+ <owl:Class rdf:ID="IndiaPaleAle">
+     <rdfs:subClassOf rdf:resource="#EnglishPaleAle"/>
      <foaf:name>India Pale Ale</foaf:name>
      <rdfs:label xml:lang="en">IPA</rdfs:label>
-     <skos:definition xml:lang="en">India Pale Ale is actually a type of pale ale that is brewed in the "English" style, contrary to it's name. It was originally brewed for the Indian market which is where it got its name. It's origins are still debated to this day but this beer is known for its use of English hops and yeast.</skos:definition>
+     <skos:definition xml:lang="en">India Pale Ale is actually a type of pale ale that is brewed in the "English" style, contrary to its name. It was originally brewed for the Indian market which is where it got its name. It's origins are still debated to this day but this beer is known for its use of English hops and yeast.</skos:definition>
      <skos:definition xml:lang="fr">L'Inde Pale Ale est en fait un type de bière blonde qui est brassée dans le style "anglais", contrairement à son nom. Il était à l'origine brassé pour le marché indien, d'où il tire son nom. Ses origines sont encore débattues à ce jour, mais cette bière est connue pour son utilisation de houblon anglais et de levure.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#Craftbeer.com2020IPA"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:EnglishPaleAle>
+ </owl:Class>
  
- <owl:PaleAle rdf:ID="AmericanPaleAle">
+ <owl:Class rdf:ID="AmericanPaleAle">
+     <rdfs:subClassOf rdf:resource="#PaleAle"/>
      <foaf:name>American Pale Ale</foaf:name>
      <rdfs:label xml:lang="en">APA</rdfs:label>
      <skos:definition xml:lang="en">American Pale Ale is based on the English Pale Ale style however rather than the woody aromas of English hops, American IPAs use American hops that are usually more citrus and piney.</skos:definition>
      <skos:definition xml:lang="fr">L'American Pale Ale est basée sur le style anglais Pale Ale, mais plutôt que les arômes boisés du houblon anglais, les IPA américaines utilisent des houblons américains qui sont généralement plus d'agrumes et de pins.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#Craftbeer.com2020APA"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:PaleAle>
+ </owl:Class>
  
  <owl:Class rdf:ID="BarleyWine">
      <foaf:name>Barley Wine</foaf:name>
      <rdfs:label xml:lang="en">Barley Wine</rdfs:label>
-     <skos:definition xml:lang="en">Contrary to their name, barley wines are not a type of wine. Barley wine is actually a type pf beer with a base of barley. Barley wines have a much higher alcohol content than typical beers.</skos:definition>
+     <skos:definition xml:lang="en">Contrary to their name, barley wines are not a type of wine. Barley wine is actually a type of beer with a base of barley. Barley wines have a much higher alcohol content than typical beers.</skos:definition>
      <skos:definition xml:lang="fr">Contrairement à leur nom, les vins d'orge ne sont pas un type de vin. Le vin d'orge est en fait une bière de type pf à base d'orge. Les vins d'orge ont une teneur en alcool beaucoup plus élevée que les bières typiques.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
@@ -319,14 +344,14 @@
      <rdfs:label xml:lang="fr">Saison</rdfs:label>
      <skos:definition xml:lang="en">Saison beers are seasonal beers that are typically enjoyed during the summer until the end of harvest. There are a wide variety of saisons brewed in the fasion as choosen at the brewer's discretion. Saisons are typically fruitier and lower in alcohol content than typical beers.</skos:definition>
      <skos:definition xml:lang="fr">Les saisons sont des bières de saison qui sont généralement appréciées pendant l'été jusqu'à la fin de la récolte. Il existe une grande variété de saisons brassées à la mode, au choix du brasseur. Les saisons sont généralement plus fruitées et plus faibles en alcool que les bières typiques.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
  <owl:Class rdf:ID="Lager">
      <foaf:name>Lager</foaf:name>
      <rdfs:label xml:lang="en">Lager</rdfs:label>
-     <skos:definition xml:lang="en">Lagers are femented with the yeast strain Saccharomyces pastorianus, which typically ferments better in colder temperatures 7-13˚C (45-55˚F) than S. cerevisiae.
+     <skos:definition xml:lang="en">Lagers are fermented with the yeast strain Saccharomyces pastorianus, which typically ferments better in colder temperatures 7-13˚C (45-55˚F) than S. cerevisiae.
          
          Lagers are also known for having a cold-conditioning phase of the brewing process, although not all lagers go through this phase.
      
@@ -337,57 +362,62 @@
          
          Les lagers peuvent être jaune pâle, ambre ou foncé.</skos:definition>
      <prov:hadPrimarySource rdf:resource="#Carpenter2017"/>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
- <owl:Lager rdf:ID="AmericanLager">
+ <owl:Class rdf:ID="AmericanLager">
+     <rdfs:subClassOf rdf:resource="#Lager"/>
      <foaf:name>American Lager</foaf:name>
      <rdfs:label xml:lang="en">American Lager</rdfs:label>
      <skos:definition xml:lang="en">American lagers came about from german immigrants bringing over their brewing style while using American ingredients. This beer is typically characterized as being light in color, low in bitterness and alcohol.</skos:definition>
      <skos:definition xml:lang="fr">Les lagers américaines sont issues d'immigrants allemands apportant leur style de brassage tout en utilisant des ingrédients américains. Cette bière est généralement caractérisée comme étant de couleur claire, faible en amertume et en alcool.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Lager>
+ </owl:Class>
  
- <owl:Lager rdf:ID="Pilsner">
+ <owl:Class rdf:ID="Pilsner">
+     <rdfs:subClassOf rdf:resource="#Lager"/>
      <foaf:name>Pilsner</foaf:name>
      <rdfs:label xml:lang="en">Pilsner</rdfs:label>
      <skos:definition xml:lang="en">Pilsners are a type of lager that first appeared in Pilsen, Bohemia from Josef Groll. It is a light colored beer that is characterized by being refreshing and low in alcohol.</skos:definition>
      <skos:definition xml:lang="fr">Les pilsners sont un type de bière blonde qui est apparu pour la première fois à Pilsen, en Bohême, de Josef Groll. C'est une bière de couleur claire qui se caractérise par sa fraîcheur et sa faible teneur en alcool.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Lager>
+ </owl:Class>
  
- <owl:Ale rdf:ID="BrownAle">
+ <owl:Class rdf:ID="BrownAle">
+     <rdfs:subClassOf rdf:resource="#Ale"/>
      <foaf:name>Brown Ale</foaf:name>
      <rdfs:label xml:lang="en">Brown Ale</rdfs:label>
      <skos:definition xml:lang="en">Brown Ales are mostly characterized by their coloring, which is determined by the types of malts rather than by style.</skos:definition>
      <skos:definition xml:lang="fr">Les bières brunes se caractérisent principalement par leur coloration, qui est déterminée par les types de malts plutôt que par le style.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Ale>
+ </owl:Class>
  
- <owl:Ale rdf:ID="BlondeAle">
+ <owl:Class rdf:ID="BlondeAle">
      <!-- Ask Kevin what the difference is between a Blonde Ale and Pale Ale -->
      <!-- If they are different then En Blonde vs Fr Blonde (pale ale) conflict -->
+     <rdfs:subClassOf rdf:resource="#Ale"/>
      <foaf:name>Blonde Ale</foaf:name>
      <rdfs:label xml:lang="en">Blonde Ale</rdfs:label>
      <skos:definition xml:lang="en">Blonde Ales are mostly characterized by their light coloring, which is determined by the types of malts rather than by style.</skos:definition>
      <skos:definition xml:lang="fr">Les bières blondes se caractérisent principalement par leur coloration claire, qui est déterminée par les types de malts plutôt que par le style.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Ale>
+ </owl:Class>
  
- <owl:Ale rdf:ID="Stout">
+ <owl:Class rdf:ID="Stout">
+     <rdfs:subClassOf rdf:resource="#Ale"/>
      <foaf:name>Stout</foaf:name>
      <rdfs:label xml:lang="en">Stout</rdfs:label>
      <rdfs:label xml:lang="frport">Stout</rdfs:label>
      <skos:definition xml:lang="en">Stouts are a dark type of ale that use a 'smoked' or malted barley, which give its distinctive 'coffee' or 'chocolate' flavored. Stouts are similar to porters but are usually thicker and healthier.</skos:definition>
      <skos:definition xml:lang="fr">Les stouts sont un type de bière noire qui utilise une orge «fumée» ou maltée, qui donne son arôme distinctif de «café» ou de «chocolat». Les stouts sont similaires aux porteurs mais sont généralement plus épais et plus sains.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
- </owl:Ale>
+ </owl:Class>
  
  <owl:Class rdf:ID="Porter">
      <foaf:name>Porter</foaf:name>
@@ -395,7 +425,7 @@
      <rdfs:label xml:lang="fr">Porter</rdfs:label>
      <skos:definition xml:lang="en">While closely related to stouts and both dark in color, porters usually use a combination of pale and dark malts.</skos:definition>
      <skos:definition xml:lang="fr">Bien que étroitement apparentés aux stouts et de couleur sombre, les porteurs utilisent généralement une combinaison de malts pâles et foncés.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
@@ -405,7 +435,7 @@
      <rdfs:label xml:lang="fr">Bière Belge</rdfs:label>
      <skos:definition xml:lang="en">Belgian beers are a grouping of beer styles produced in Belgium or in the Belgian style. These styles are mostly ales that use fruity yeasts and malts.</skos:definition>
      <skos:definition xml:lang="fr">Les bières belges sont un regroupement de styles de bières produits en Belgique ou dans le style belge. Ces styles sont principalement des ales qui utilisent des levures et des malts fruités.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
@@ -415,7 +445,7 @@
      <rdfs:label xml:lang="en">Bière de Blé</rdfs:label>
      <skos:definition xml:lang="en">Wheat beers originated in Germany and are usually pale ales. Ahe style is characterized by having a large percentage of malted or unmalted wheat.</skos:definition>
      <skos:definition xml:lang="fr">Les bières de blé sont originaires d'Allemagne et sont généralement des ales pâles. Le style Ahe se caractérise par un pourcentage élevé de blé malté ou non.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
@@ -424,12 +454,12 @@
      <rdfs:label xml:lang="en">Sour Beer</rdfs:label>
      <skos:definition xml:lang="en">Sour beers are a grouping of beers that taste sour, acidic or tart. They come about from a variety of styles and ingredients.</skos:definition>
      <skos:definition xml:lang="fr">Les bières acidulées sont un groupe de bières au goût aigre, acide ou acidulé. Ils proviennent d'une variété de styles et d'ingrédients.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
  <owl:Class rdf:ID="Mead">
-     <rdfs:subClassOf rdf:resource="#http://purl.obolibrary.org/obo/FOODON_00001094"/>
+     <owl:equivalentClass rdf:resource="#http://purl.obolibrary.org/obo/FOODON_03307306"/>
      <foaf:name>Mead</foaf:name>
      <rdfs:label xml:lang="en">Mead</rdfs:label>
      <rdfs:label xml:lang="en">Honey Wine</rdfs:label>
@@ -438,32 +468,27 @@
      <rdfs:comment xml:lang="fr">L'hydromel n'est pas techniquement une bière puisque sa principale source de sucre provient du miel, mais pour des raisons de commodité, cette classe se trouve dans l'ontologie de la bière.</rdfs:comment>
      <skos:definition xml:lang="en">Mead is one of the oldest alcoholic beverages, produced by fermenting honey (although some other ingredients like fruit can be added in as well). The alcohol content usually ranges from 5 to 20% and the flavor profile ranges from very dry to very sweet.</skos:definition>
      <skos:definition xml:lang="fr">L'hydromel est l'une des boissons alcoolisées les plus anciennes, produite par la fermentation du miel (bien que certains autres ingrédients comme les fruits puissent également être ajoutés). La teneur en alcool varie généralement de 5 à 20% et le profil de saveur varie de très sec à très sucré.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
  
  <owl:Class rdf:ID="Cider">
-     <rdfs:subClassOf rdf:resource="#http://purl.obolibrary.org/obo/FOODON_00001254"/>
+     <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301134"/>
      <foaf:name>Cider</foaf:name>
      <rdfs:label xml:lang="en">Cider</rdfs:label>
      <rdfs:label xml:lang="en">Hard Cider</rdfs:label> <!-- US -->
      <rdfs:label xml:lang="fr">Cidre</rdfs:label>
      <rdfs:comment xml:lang="en">In North America, particularly the US, cider is an unfermented beverage produced from crushing apples, but can be made from other fruit.
          
-         While fermented crushed fruit (cider) is not a type of beer this class is in the Beer Ontology for convienience.</rdfs:comment>
+         While fermented crushed fruit (cider) is not a type of beer this class is in the Beer Ontology for convenience.</rdfs:comment>
      <rdfs:comment xml:lang="fr">En Amérique du Nord, en particulier aux États-Unis, le cidre est une boisson non fermentée produite à partir du broyage de pommes, mais peut être fabriqué à partir d'autres fruits.
          
          Bien que les fruits broyés fermentés (cidre) ne soient pas un type de bière, cette classe est dans l'ontologie de la bière pour plus de commodité.</rdfs:comment>
      <skos:definition xml:lang="en">Cider is made from fermenting the juice of crushed fruit, usually apples.</skos:definition>
      <skos:definition xml:lang="fr">Le cidre est fabriqué à partir de la fermentation du jus de fruits écrasés, généralement des pommes.</skos:definition>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
  </owl:Class>
- 
- <!-- Craft beer types -->
- <!-- Craft Beer Class -->
-    <!-- https://www.craftbeer.com/styles/american-barley-wine -->
-    <!-- https://www.craftbeer.com/beer-styles -->
  
 <!-- Liquid Container -->
 <owl:Class rdf:ID="LiquidContainer">
@@ -472,7 +497,7 @@
     <rdfs:label xml:lang="fr">Conteneur de Liquide</rdfs:label>
     <skos:definition xml:lang="en">A container made for holding liquids.</skos:definition>
     <skos:definition xml:lang="fr">Un récipient conçu pour contenir des liquides.</skos:definition>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>
 </owl:Class>
 
@@ -483,7 +508,7 @@
     <rdfs:label xml:lang="fr">Fût</rdfs:label>
     <skos:definition xml:lang="en">A small barrel used to store and serve beer.</skos:definition>
     <skos:definition xml:lang="fr">Un contenant réutilisable pour entreposer et servir la bière.</skos:definition>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>
 </owl:Class>
 
@@ -510,12 +535,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">5000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -532,12 +557,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">169</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">169</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">169</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -555,12 +580,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">1.32</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -574,7 +599,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">251</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>251</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -585,7 +610,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#miniKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">251</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -598,7 +623,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.875</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>9.875</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -609,7 +634,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#miniKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">9.875</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -622,7 +647,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">171</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>171</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -633,7 +658,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#miniKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">171</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -646,7 +671,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.750</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>6.750</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -657,7 +682,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#miniKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">6.750</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -670,7 +695,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>0.6</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -681,7 +706,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#miniKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">0.6</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -694,7 +719,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.4</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>1.4</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -705,11 +730,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#miniKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">1.4</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#corneliusKeg">
@@ -735,12 +760,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18930</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18930</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">18930</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -757,12 +782,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">640</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">640</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">640</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -780,12 +805,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.23</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.23</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">5.23</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -799,7 +824,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">584</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>584</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -810,7 +835,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#corneliusKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">584</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -823,7 +848,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.000</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>23.000</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -834,7 +859,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#corneliusKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">23.000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -847,7 +872,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">229</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>229</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -858,7 +883,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#corneliusKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">229</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -871,7 +896,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.000</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>9.000</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -882,7 +907,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#corneliusKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">9.000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -895,7 +920,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>4.1</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -906,7 +931,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#corneliusKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">4.1</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -919,7 +944,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>9.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -930,11 +955,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#corneliusKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">9.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#sixthBarrelKeg">
@@ -960,12 +985,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">20000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -982,12 +1007,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">660</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">660</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">660</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1005,12 +1030,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.28</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.28</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">5.28</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1024,7 +1049,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">591</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>591</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1035,7 +1060,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">591</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1048,7 +1073,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.250</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>23.250</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1059,7 +1084,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">23.250</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1072,7 +1097,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>234</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1083,7 +1108,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">234</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1096,7 +1121,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.190</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>9.190</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1107,7 +1132,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">9.190</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1120,7 +1145,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.5</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>7.5</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1131,7 +1156,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">7.5</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1144,7 +1169,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.5</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>16.5</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1155,11 +1180,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#sixthBarrelKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">16.5</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#slimQuarterKeg">
@@ -1185,12 +1210,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">30000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1207,12 +1232,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1014</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1230,12 +1255,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">7.92</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1249,7 +1274,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">594</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>594</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1260,7 +1285,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">594</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1273,7 +1298,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.400</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>23.400</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1284,7 +1309,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">23.400</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1297,7 +1322,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">286</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>286</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1308,7 +1333,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">286</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1321,7 +1346,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.250</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>11.250</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1332,7 +1357,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">11.250</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1345,7 +1370,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.3</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>11.3</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1356,7 +1381,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">11.3</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1369,7 +1394,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>25.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1380,11 +1405,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#slimQuarterKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">25.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#quarterKeg">
@@ -1410,12 +1435,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">30000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1432,12 +1457,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1014</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1455,12 +1480,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">7.92</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1474,7 +1499,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">351</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>351</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1485,7 +1510,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#quarterKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">351</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1498,7 +1523,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.800</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>13.800</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1509,7 +1534,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#quarterKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">13.800</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1522,7 +1547,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>409</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1533,7 +1558,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#quarterKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">409</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1546,7 +1571,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.120</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>16.120</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1557,7 +1582,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#quarterKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">16.120</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1570,7 +1595,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.3</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>11.3</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1581,7 +1606,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#quarterKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">11.3</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1594,7 +1619,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>25.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1605,11 +1630,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#quarterKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">25.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#halfBarrelKeg">
@@ -1634,12 +1659,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58600</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58600</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">58600</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1656,12 +1681,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1981</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1981</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1981</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1679,12 +1704,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.47</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.47</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">15.47</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1698,7 +1723,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">592</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>592</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1709,7 +1734,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegHeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">592</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1722,7 +1747,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.300</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>23.300</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1733,7 +1758,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegHeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">23.300</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1746,7 +1771,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">409</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>409</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1757,7 +1782,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegDiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">409</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1770,7 +1795,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.120</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>16.120</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1781,7 +1806,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegDiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">16.120</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1794,7 +1819,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.6</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>13.6</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1805,7 +1830,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegWeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">13.6</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1818,7 +1843,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>30.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -1829,11 +1854,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#halfBarrelKegWeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">30.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#D201">
@@ -1859,12 +1884,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20200</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20200</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">20200</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1881,12 +1906,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">676</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1904,12 +1929,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.28</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.28</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">5.28</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1923,7 +1948,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">310</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>310</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1934,7 +1959,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D201HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">310</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1947,7 +1972,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.205</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>12.205</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -1958,7 +1983,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D201HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">12.205</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1971,7 +1996,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">363</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>363</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -1982,7 +2007,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D201DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">363</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -1995,7 +2020,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.291</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>14.291</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2006,7 +2031,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D201DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">14.291</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2019,7 +2044,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.3</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>7.3</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2030,7 +2055,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D201WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">7.3</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2043,7 +2068,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.1</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>16.1</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2054,11 +2079,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D201WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">16.1</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#D251">
@@ -2084,12 +2109,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25200</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25200</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">25200</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2106,12 +2131,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">845</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">845</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">845</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2129,12 +2154,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.60</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.60</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">6.60</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2148,7 +2173,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">360</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>360</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2159,7 +2184,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D251HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">360</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2172,7 +2197,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.173</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>14.173</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2183,7 +2208,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D251HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">14.173</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2196,7 +2221,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">363</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>363</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2207,7 +2232,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D251DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">363</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2220,7 +2245,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.291</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>14.291</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2231,7 +2256,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D251DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">14.291</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2244,7 +2269,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.5</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>8.5</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2255,7 +2280,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D251WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">8.5</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2268,7 +2293,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.7</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>18.7</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2279,11 +2304,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D251WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">18.7</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#D301">
@@ -2309,12 +2334,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30200</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30200</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">30200</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2331,12 +2356,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1014</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1014</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2354,12 +2379,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.92</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">7.92</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2373,7 +2398,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">404</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>404</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2384,7 +2409,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D301HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">404</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2397,7 +2422,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.906</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>15.906</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2408,7 +2433,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D301HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">15.906</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2421,7 +2446,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">381</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>381</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2432,7 +2457,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D301DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">381</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2445,7 +2470,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.000</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>15.000</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2456,7 +2481,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D301DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">15.000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2469,7 +2494,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.9</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>8.9</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2480,7 +2505,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D301WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">8.9</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2493,7 +2518,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.6</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>19.6</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2504,11 +2529,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D301WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">19.6</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#D501">
@@ -2534,12 +2559,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50200</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50200</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">50200</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2556,12 +2581,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1690</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1690</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1690</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2579,12 +2604,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.20</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.20</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">13.20</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2598,7 +2623,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>600</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2609,7 +2634,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D501HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">600</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2622,7 +2647,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.622</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>23.622</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2633,7 +2658,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#D501HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">23.622</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2646,7 +2671,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">381</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>381</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2657,7 +2682,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D501DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">381</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2670,7 +2695,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.000</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>15.000</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2681,7 +2706,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#D501DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">15.000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2694,7 +2719,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.1</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>11.1</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2705,7 +2730,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D501WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">11.1</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2718,7 +2743,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.5</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>24.5</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2729,11 +2754,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#D501WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">24.5</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#Euro20">
@@ -2758,12 +2783,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">20000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2780,12 +2805,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">563</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">563</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">563</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2803,12 +2828,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.40</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.40</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">4.40</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2822,7 +2847,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">216</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>216</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2833,7 +2858,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro20HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">216</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2846,7 +2871,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.504</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>8.504</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -2857,7 +2882,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro20HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">8.504</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2870,7 +2895,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">395</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>395</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2881,7 +2906,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro20DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">395</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2894,7 +2919,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.551</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>15.551</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -2905,7 +2930,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro20DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">15.551</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2918,7 +2943,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.6</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>8.6</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2929,7 +2954,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro20WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">8.6</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -2942,7 +2967,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>19.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -2953,11 +2978,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro20WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">19.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#Euro25">
@@ -2982,12 +3007,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">25000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3004,12 +3029,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">704</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">704</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">704</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3027,12 +3052,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.50</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.50</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">5.50</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3046,7 +3071,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">327</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>327</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3057,7 +3082,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro25HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">327</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3070,7 +3095,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.874</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>12.874</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3081,7 +3106,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro25HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">12.874</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3094,7 +3119,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">395</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>395</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3105,7 +3130,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro25DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">395</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3118,7 +3143,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.551</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>15.551</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3129,7 +3154,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro25DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">15.551</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3142,7 +3167,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.9</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>8.9</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3153,7 +3178,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro25WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">8.9</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3166,7 +3191,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.6</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>19.6</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3177,11 +3202,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro25WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">19.6</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#Euro30">
@@ -3206,12 +3231,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">30000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3228,12 +3253,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">845</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">845</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">845</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3251,12 +3276,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.60</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.60</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">6.60</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3270,7 +3295,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">365</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>365</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3281,7 +3306,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro30HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">365</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3294,7 +3319,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.370</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>14.370</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3305,7 +3330,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro30HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">14.370</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3318,7 +3343,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">408</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>408</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3329,7 +3354,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro30DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">408</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3342,7 +3367,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.063</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>16.063</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3353,7 +3378,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro30DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">16.063</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3366,7 +3391,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.5</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>9.5</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3377,7 +3402,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro30WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">9.5</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3390,7 +3415,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.9</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>20.9</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3401,11 +3426,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro30WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">20.9</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 <rdf:Description rdf:about="#Euro50">
@@ -3431,12 +3456,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50000</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/MilliL"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50000</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>
     </gs1:QuantitativeValue>
    </sosa:hasResult> 
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">50000</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3453,12 +3478,12 @@
     <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1665</rdf:value>
     <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US"/>
     <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1665</qudt:numericalValue>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>  
    </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/OZ_VOL_US">1665</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3476,12 +3501,12 @@
      <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.00</rdf:value>
      <qudt:unit rdf:resource="http://www.qudt.org/2.1/vocab/unit/GAL_US"/>
      <qudt:numericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.00</qudt:numericalValue>
-     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+     <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
      <void:inDataset rdf:resource="#datasetdefinition"/>  
     </gs1:QuantitativeValue>
    </sosa:hasResult>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/GAL_US">13.00</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>  
  </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3495,7 +3520,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">532</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>532</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3506,7 +3531,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro50HeightMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">532</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3519,7 +3544,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.940</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>20.940</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageHeight>  
@@ -3530,7 +3555,7 @@
    <sosa:observedProperty  rdf:resource="#height"/>
    <sosa:hasResult rdf:resource="#Euro50HeightIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">20.940</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3543,7 +3568,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">408</rdf:value>
    <gs1:unitCode>MMT</gs1:unitCode>
    <gs1:value>408</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3554,7 +3579,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro50DiameterMM"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">408</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3567,7 +3592,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.060</rdf:value>
    <gs1:unitCode>INH</gs1:unitCode>
    <gs1:value>16.060</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </gs1:inPackageDiameter>
@@ -3578,7 +3603,7 @@
    <sosa:observedProperty  rdf:resource="#diameter"/>
    <sosa:hasResult rdf:resource="#Euro50DiameterIN"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/IN">16.060</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3591,7 +3616,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.7</rdf:value>
    <gs1:unitCode>KGM</gs1:unitCode>
    <gs1:value>12.7</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3602,7 +3627,7 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro50WeightKG"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/KiloGM">12.7</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
@@ -3615,7 +3640,7 @@
    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</rdf:value>
    <gs1:unitCode>lbm</gs1:unitCode>
    <gs1:value>28.0</gs1:value>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </gs1:QuantitativeValue>
  </schema:weight>
@@ -3626,11 +3651,11 @@
    <sosa:observedProperty  rdf:resource="#grossWeight"/>
    <sosa:hasResult rdf:resource="#Euro50WeightLB"/>
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/LB">28.0</sosa:hasSimpleResult>
-   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
    <void:inDataset rdf:resource="#datasetdefinition"/>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3643,7 +3668,7 @@
     <rdfs:label xml:lang="fr">Bouteille</rdfs:label>
     <skos:definition xml:lang="en">A container that is usually round and made of glass that has a narrow mouth for serving.</skos:definition>
     <skos:definition xml:lang="fr">Un récipient généralement cylindrique à sa base et en verre, resserré à son sommet.</skos:definition>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>
 </owl:Class>
     
@@ -3654,7 +3679,7 @@
     <rdfs:label xml:lang="fr">Canette</rdfs:label>
     <skos:definition xml:lang="en">A cylindrical metal container mean to hold a liquid.</skos:definition>
     <skos:definition xml:lang="fr">Un contenant métallique pour contenir un liquide.</skos:definition>
-    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+    <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
     <void:inDataset rdf:resource="#datasetdefinition"/>
 </owl:Class>
 
@@ -3744,7 +3769,7 @@
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">55.033164</sosa:hasSimpleResult>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf> 
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3834,7 +3859,7 @@
    <sosa:hasSimpleResult rdf:datatype="http://www.qudt.org/2.1/vocab/unit/MilliM">55.033164</sosa:hasSimpleResult>
   </rdf:Description>
  </sosa:isFeatureOfInterestOf>
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3847,7 +3872,7 @@
  <rdfs:label xml:lang="fr">Hauteur</rdfs:label>
  <skos:definition xml:lang="en">The measurement from base to top of something.</skos:definition>  
  <skos:definition xml:lang="fr">La mesure de la base au sommet d'une chose.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3858,7 +3883,7 @@
  <rdfs:label xml:lang="fr">Diamètre</rdfs:label>
  <skos:definition xml:lang="en">A diameter is a chord that runs through the center point of the circle.</skos:definition>  
  <skos:definition xml:lang="fr">Le diamètre est un segment de droite passant par le centre.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3869,7 +3894,7 @@
  <rdfs:label xml:lang="fr">Diamètre de Bout</rdfs:label>
  <skos:definition xml:lang="en">A diameter is a chord that runs through the center point of the circle at the extremeties of the can.</skos:definition>  
  <skos:definition xml:lang="fr">Le diamètre est un segment de droite passant par le centre à l'extrémité de la canette.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3880,7 +3905,7 @@
  <rdfs:label xml:lang="fr">Capacité nominale</rdfs:label>
  <skos:definition xml:lang="en">The volume of the tank when filled to the top.</skos:definition>  
  <skos:definition xml:lang="fr">Le volume du réservoir lorsqu'il est rempli completement.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3889,7 +3914,7 @@
  <rdfs:label xml:lang="fr">Capacité nominale</rdfs:label>
  <skos:definition xml:lang="en">The volume of the tank when filled to the top.</skos:definition>  
  <skos:definition xml:lang="fr">Le volume du réservoir lorsqu'il est rempli completement.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </owl:DatatypeProperty>
 
@@ -3900,7 +3925,7 @@
  <rdfs:label xml:lang="fr">Contenu Net</rdfs:label>
  <skos:definition xml:lang="en">The amount of the consumable product without packaging.</skos:definition>  
  <skos:definition xml:lang="fr">Le montant de produit consommable dans l'emballage.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
         
@@ -3911,7 +3936,7 @@
  <rdfs:label xml:lang="fr">Capacité à débordement</rdfs:label>
  <skos:definition xml:lang="en">The exact amount of liquid the container can hold when filled to the brim.</skos:definition>  
  <skos:definition xml:lang="fr">La quantité exacte de liquide que le récipient peut contenir lorsqu'il est rempli à ras bord.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
     
@@ -3922,7 +3947,7 @@
  <rdfs:label xml:lang="fr">Capacité Standard</rdfs:label>
  <skos:definition xml:lang="en">The commercial volume of a product in a bottle.</skos:definition>  
  <skos:definition xml:lang="fr">Le volume commercial d'un produit en bouteille.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3933,7 +3958,7 @@
  <rdfs:label xml:lang="fr">Poids Brut</rdfs:label>
  <skos:definition xml:lang="fr">La masse volumique du contenant et du produit.</skos:definition>  
  <skos:definition xml:lang="en">The weight of the product and the packaging.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
 
@@ -3944,9 +3969,140 @@
  <rdfs:label xml:lang="fr">Poids de l'emballage</rdfs:label>
  <skos:definition xml:lang="fr">La masse volumique du contenant.</skos:definition>  
  <skos:definition xml:lang="en">The weight of the packaging.</skos:definition>  
- <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-ONTOLOGY_DATE"/>
+ <rdfs:isDefinedBy rdf:resource="http://rdf.ag/o/beer-2021-02-04"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
 </rdf:Description>
     
-</rdf:RDF>
 
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#BrewersAssociation2020">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Craft Beer Industry Market Segments</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#BrewersAssociation2020-537e9bae73ad8228d2b4a53fa3d5d839">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Brewers</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Association</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:AcademicArticle xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Carpenter2017">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/"> What Is the Difference between Ale and Lager?</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Carpenter2017-0bbb8ac367040ddf66e08add084e9325">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Dave</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Carpenter</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:AcademicArticle>
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Craftbeer.com2020APA">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">IPA</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Craftbeer.com2020APA-494fc92e25c1794fa83e1dd94bf68249">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/"></foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Craftbeer.com</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Craftbeer.com2020IPA">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">IPA</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Craftbeer.com2020IPA-494fc92e25c1794fa83e1dd94bf68249">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/"></foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Craftbeer.com</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:AcademicArticle xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Curry2017">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Our 9,000-Year Love Affair With Booze</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Curry2017-3134e8b3c5645bb5acf11d54fe13994d">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Andrew</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Curry</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:AcademicArticle>
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Foster1999">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Pale ale</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Foster1999-7fa2ceed97a2314e4386f46f09e41d28">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Terry</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Foster</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Foster2020">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">The Oxford Companion to Beer definition of Pale Ale</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Foster2020-7fa2ceed97a2314e4386f46f09e41d28">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Terry</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Foster</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:Book xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Jackson1993">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Michael Jackson's beer companion</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Jackson1993-252131996aaf598f70de9ffeda7af3dc">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Michael</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Jackson</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:Book>
+  <bibo:BookSection xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Kulkarni2016">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Chapter 7 - Preparation and Stability Testing</dcterms:title>
+    <dcterms:editor xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Kulkarni2016-238a6647405cebfd3d3768d2a4012953">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Vitthal S.</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Kulkarni</foaf:lastName>
+      </foaf:Person>
+    </dcterms:editor>
+    <dcterms:editor xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Kulkarni2016-8f6715e75c2500bfe4f830a1a8ff1cb8">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Charles</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Shaw</foaf:lastName>
+      </foaf:Person>
+    </dcterms:editor>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="#Kulkarni2016-238a6647405cebfd3d3768d2a4012953"/>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="#Kulkarni2016-8f6715e75c2500bfe4f830a1a8ff1cb8"/>
+    <bibo:numPages xmlns:bibo="http://purl.org/ontology/bibo/">99 - 135</bibo:numPages>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:BookSection>
+  <bibo:AcademicArticle xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Stewart2018">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Yeast FlocculationâSedimentation and Flotation</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Stewart2018-a275083f2e1285c725e4f0f86f021f1c">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">Graham G.</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Stewart</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:AcademicArticle>
+  <bibo:AcademicArticle xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#WHO2018">
+    <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">Global status report on alcohol and health 2018</dcterms:title>
+    <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/">
+      <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#WHO2018-a0c8f1fedd1ee194a390e08de946d66f">
+        <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+        <foaf:firstName xmlns:foaf="http://xmlns.com/foaf/0.1/">World Health</foaf:firstName>
+        <foaf:lastName xmlns:foaf="http://xmlns.com/foaf/0.1/">Organization</foaf:lastName>
+      </foaf:Person>
+    </dcterms:creator>
+    <vs:term_status xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">Unstable</vs:term_status>
+  </bibo:AcademicArticle>
+</rdf:RDF>
