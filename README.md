@@ -4,4 +4,13 @@ This is a public repository for issues pertaining to the [Beer Ontology](https:/
 Comments, Issues and Pull Requests as welcome.
  
 
+## Version 1.1
+* Added FoodOn relationships.
+* Added Milk stout class and historical note on UK legislation on milk.
+* Imports for prov and sosa ontologies.
+* Fixed bad language tag.
+* rdfs compatibility added.
+* http/https compatibility added.
 
+## Version 1.0
+* Initial release.
