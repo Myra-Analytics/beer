@@ -429,7 +429,7 @@
      <rdfs:subClassOf rdf:resource="#Stout"/>
      <foaf:name>Milk Stout</foaf:name>
      <rdfs:label xml:lang="en">Milk Stout</rdfs:label>
-     <rdfs:label xml:lang="frport">Milk Stout</rdfs:label>
+     <rdfs:label xml:lang="fr">Milk Stout</rdfs:label>
      <skos:definition xml:lang="en">Milk stouts are a type of stouts that have been sweetened by the addition of milk or milk products.</skos:definition>
      <skos:definition xml:lang="fr">Les stouts de lait sont un type de stouts qui ont été édulcorés par l'ajout de lait ou de produits laitiers.</skos:definition>
      <skos:historyNote xml:lang="en">In the United Kingdom, the Food Labelling Regulations of 1996 state that milk stouts cannot be described as containing 'milk', since the milk nutrients are destroyed or transformed in the brewing process and what is left is not 'milk'.</skos:historyNote>
